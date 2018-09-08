@@ -5,6 +5,7 @@
             <tr>Purpose</tr>
             <tr>Amount</tr>
             <tr>Date</tr>
+            <tr>Action</tr>
         </thead>
         <tbody>
         {% for exp in expenses %}
@@ -12,8 +13,13 @@
                 <td>{{ exp.purpose }}</td>
                 <td>{{ exp.amount }}</td>
                 <td>{{ exp.date }}</td>
+                <td>
+                    <a class="btn btn-primary" href="{% url 'edit-expense' exp.id %}">Edit</a>
+                    <a class="btn btn-danger" href="{% url 'delete-expense' exp.id %}">Delete</a>
+                </td>
             </tr>
         {% endfor %}
         </tbody>
     </table>
+    <a class="btn btn-primary" href="{% url 'add-expense' %}">ADD New Expense</a>
 {% endblock %}
