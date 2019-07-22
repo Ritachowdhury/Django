@@ -1,0 +1,179 @@
+database updat-   odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server --addons-path=/opt/odoo/odoo-server/addons/,/opt/odoo/odoo-server/openerp/addons/,/opt/odoo/custom/addons/ -d DEMO -u all
+
+
+odoo stop-  sudo systemctl stop odoo-server.service
+
+install- sudo apt-get install skype
+
+parmition for all-   root@rita-desktop:~# chmod +777 -R addons/*^C
+
+for rm non empty dir-  root@rita-desktop:~# rm -rf /opt/odoo/odoo-server/ytube
+
+for go another folder-  root@rita-desktop:~# cd /opt/odoo/odoo-server/
+			or
+			root@rita-desktop:~# cd /opt/odoo/custom/addons/
+
+for scaffold module create-  root@rita-desktop:/opt/odoo/odoo-server# ./odoo-bin scaffold gbs_purchase_order /opt/odoo/custom/10/gbs/
+
+
+start oddo-
+		root@rita-desktop:~# sudo su odoo -s /bin/bash 
+		odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server
+
+
+root@rita-desktop:~# sudo pip install pycrypto
+
+root@rita-desktop:~# pip install validators
+root@rita-desktop:~# sudo apt-get install duplicity
+root@rita-desktop:~# ./odoo.py scaffold student_management /opt/odoo/custom/addons/
+
+#Delete and copy 
+SCCL_LIVE_MAR_08
+rita@rita-desktop:~$ sudo su
+[sudo] password for rita: 
+root@rita-desktop:/home/rita# cp -a /home/rita/Downloads/odoo-10-server /opt/odoo/
+root@rita-desktop:/home/rita# cd /opt/odoo/
+root@rita-desktop:/opt/odoo# ls
+custom  odoo-10-server  odoo-server
+root@rita-desktop:/opt/odoo# rm -rf odoo-10-server
+
+
+
+root@rita-desktop:~# sudo su odoo -s /bin/bash 
+odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server
+
+odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server --addons-path=/opt/odoo/odoo-server/addons/,/opt/odoo/odoo-server/openerp/addons/,/opt/odoo/custom/addons/
+
+odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server --addons-path=/opt/odoo/odoo-server/addons/,/opt/odoo/odoo-server/openerp/addons/,/opt/odoo/custom/addons/ -d DEMO -u all
+
+odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server --addons-path=/opt/odoo/odoo-server/addons/,/opt/odoo/odoo-server/openerp/addons/,/opt/odoo/custom/addons/ -d DEMO -u student_management
+
+odoo@rita-desktop:/root$ rm -rf /opt/odoo/custom/addons/test
+
+root@rita-desktop:~# sudo systemctl stop odoo-server.service
+chmod 777 -R foldername
+
+#samuda start
+root@rita-desktop:~# sudo su odoo -s /bin/bash
+odoo@rita-desktop:/root$ /opt/odoo/odoo-server/openerp-server --addons-path=/opt/odoo/odoo-server/addons/,/opt/odoo/odoo-server/openerp/addons/,/opt/odoo/custom/samuda-addons/ -d samuda -u hr_leave_carry_forward
+
+#git config
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+#git pull
+
+rita@rita-desktop:~$ sudo su
+[sudo] password for rita: 
+root@rita-desktop:/home/rita# cd /opt/odoo/custom/samuda-addons/
+root@rita-desktop:/opt/odoo/custom/samuda-addons# git branch
+* samuda-source
+root@rita-desktop:/opt/odoo/custom/samuda-addons# git status
+root@rita-desktop:/opt/odoo/custom/samuda-addons# git pull
+Username for 'https://github.com': ritachowdhury
+Password for 'https://ritachowdhury@github.com': 
+
+#git push
+
+git status
+git add --all
+git commit -m "[MOD] Changed label of earned leave"
+git pull 
+git push
+
+Git add –all
+git commit -m “sadasd”
+git pull origin branch name
+
+git push origin branch name
+
+#download samuda brance:
+
+root@rita-desktop:/opt/odoo/custom#  git clone -b samuda-source --single-branch https://github.com/genweb2/gbs.git samuda-addons
+Cloning into 'samuda-addons'...
+Username for 'https://github.com': golam-rabbi
+Password for 'https://golam-rabbi@github.com': 
+ For permition:
+root@rita-desktop:/opt/odoo/custom# chmod +777 samuda-addons/
+all permition:
+root@rita-desktop:/opt/odoo/custom# sudo chmod -R ugo+rw /opt/odoo/custom/samuda-addons/
+
+
+#ODOO-10 server installation
+
+oot@rita-desktop:/opt/odoo# sudo su odoo -s /bin/bash 
+odoo@rita-desktop:~$ cp -a /home/rita/Downloads/odoo-10-server /opt/odoo/
+odoo@rita-desktop:~$ exit
+exit
+root@rita-desktop:/opt/odoo# cd /opt/odoo/odoo-10-server/
+root@rita-desktop:/opt/odoo/odoo-10-server# sudo pip install -r requirements.txt
+
+#odoo 10 start 
+root@rita-desktop:~# sudo su odoo -s /bin/bash 
+odoo@rita-desktop:/root$ /opt/odoo/odoo-10-server/odoo-bin --addons-path=/opt/odoo/odoo-10-server/addons/,/opt/odoo/odoo-10-server/odoo/addons/
+
+#odd
+root@rita-desktop:/opt/odoo/custom# git clone -b 10.0 --single-branch https://github.com/genweb2/gbs.git 10
+Cloning into '10'...
+Username for 'https://github.com': ritachowdhury
+Password for 'https://ritachowdhury@github.com':
+root@rita-desktop:/opt/odoo/custom# chmod +777 -R 10/
+root@rita-desktop:/opt/odoo/custom# sudo chmod -R ugo+rw /opt/odoo/custom/10/
+-----full folder permission------
+rita@rita-desktop:/opt/odoo$ sudo chmod 777 -R custom/
+
+
+mehedi vai-/opt/odoo/odoo-10-server/odoo-bin --addons-path=/opt/odoo/odoo-10-server/addons/,/opt/odoo/odoo-10-server/odoo/addons/,/opt/odoo/custom/10/ -d odoo_10 -u all
+
+
+
+odoo@rita-desktop:/home/rita$ /opt/odoo/odoo-10-server/odoo-bin --addons-path=/opt/odoo/odoo-10-server/addons/,/opt/odoo/odoo-10-server/odoo/addons/,/opt/odoo/custom/10.0/gbs/,/opt/odoo/custom/10.0/gbs/,/opt/odoo/custom/10.0/server-tools/ -d Test -u hr_employee_loan
+
+/opt/odoo/odoo-10-server/odoo-bin --addons-path=/opt/odoo/odoo-10-server/addons/,/opt/odoo/odoo-10-server/odoo/addons/,/opt/odoo/custom/10/ -d Test -u all
+
+
+root@rita-desktop:/opt/odoo/custom/10.0# git clone -b 10.0 --single-branch https://github.com/OCA/server-tools.git
+
+
+10.0, gbs path: --addons-path=/opt/odoo/odoo-10-server/addons/,/opt/odoo/odoo-10-server/odoo/addons/,/opt/odoo/custom/10.0/gbs/,/opt/odoo/custom/10.0/server-tools/
+-d
+ODOO-10
+-u
+gbs_hr_department
+
+
+Create log-----
+rita@rita-desktop:/opt/odoo/custom/10.0/gbs$ cat log.py 
+rita@rita-desktop:/opt/odoo/custom/10.0/gbs$ git log -p hr_rostering/models/hr_shifting.py > log.py
+
+## Brance
+root@rita-desktop:/opt/odoo/custom/10.0# git clone -b 10.0 --single-branch https://github.com/OCA/web.git
+
+
+#like puty for ubontu 192.168.1.30:8010
+sudo apt install openssh-server  #--- install it------
+then, sudo ssh root@192.168.1.30, give password:genweb2
+30 server path: 
+sudo su odoo -s /bin/bash 
+ping is working?
+ping -p 23 121.200.63.10
+
+/opt/odoo/odoo-10-server/odoo-bin --addons-path=/opt/odoo/odoo-10-server/addons/,/opt/odoo/odoo-10-server/odoo/addons/,/opt/odoo/custom/10.0/server-tools/,/opt/odoo/custom/10.0/reporting-engine/,/opt/odoo/custom/10.0/oca-hr/,/opt/odoo/custom/10.0/web/,/opt/odoo/custom/10.0/gbs/,/opt/odoo/custom/10.0/purchase-workflow/,/opt/odoo/custom/10.0/sale-workflow/,/opt/odoo/custom/10.0/partner-contact/, --xmlrpc-port=8011 -d SCCL_LIVE -u all
+
+# for find a line change
+git blame -L 53,+5 h
+
+# server process kill
+rita@rita-desktop:~$ ps -ef | grep odoo
+rita@rita-desktop:~$ sudo kill -9 28383
+other ip login:
+rita@rita-desktop:~$ ssh sumon@192.168.1.139
+
+git config remote.origin.url
+git clone -b emk --single-branch https://github.com/genweb2/gbs.git
+git clone -b 10.0 --single-branch https://github.com/OCA/account-financial-reporting account-financial-reporting
+
+mkdir folder_name
+sudo chmod 777 -R folder_name/
+git clone -b 10.0 --single-branch link
+
